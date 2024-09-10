@@ -6,9 +6,10 @@ body{
     margin: auto;
     padding: auto;
     background-color: white;
+    --hfTaille: 50px;
 }
 .Header{
-    height: 10%;
+    height: var(--hfTaille);
     background-color: aqua;
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -22,17 +23,36 @@ body{
 img{
     margin: 20px;
     height: 200px;
+    border-radius: 100%;
+}
+.Centre{
     display: flex;
-    justify-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
 }
 
 footer{
     padding: auto;
     margin: auto;
-    height: 50px ;
+    height: var(--hfTaille) ;
     background-color: black;
     display: flex;
-    justify-items: baseline;  
-    justify-content: space-between;
+    align-items: center;  
+    justify-content: space-evenly;
     
 }
+button {
+    background-color: #7b38d8;
+    border-radius: 10px;
+    border: 4px double #cccccc;
+    color: #eeeeee;
+    text-align: center;
+    font-size: 25px;
+    transition: all 0.5s;
+    cursor: pointer;
+    height: cal(var(--hfTaille) - 10px);
+}
+button:hover {
+    background-color: green;
+  }
