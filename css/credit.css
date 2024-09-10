@@ -1,6 +1,7 @@
 * {
     background-color: black;
     color: white;
+
 }
 
 body {
@@ -12,5 +13,9 @@ h2 {
 }
 
 h3 {
-    margin-top: 10px;
+    margin-top: 30px;
+}
+
+#defilement {
+    margin-bottom: 50vh;
 }
