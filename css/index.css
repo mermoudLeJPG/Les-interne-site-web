@@ -13,3 +13,26 @@ body{
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+#main{
+        padding:auto;
+        margin: auto;
+        text-align: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+img{
+    margin: 20px;
+    height: 200px;
+    display: flex;
+    justify-items: center;
+}
+
+footer{
+    padding: auto;
+    margin: auto;
+    height: 50px ;
+    background-color: black;
+    display: flex;
+    justify-items: baseline;  
+    justify-content: space-between;
+    
+}
