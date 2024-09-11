@@ -1,0 +1,35 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    margin: auto;
+    padding: auto;
+    background-color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+        
+    
+}
+header{
+    background-color: green;
+    height: 100px;
+}
+.G{
+    height: 800px;
+    display: flex;
+}
+.descriptions{
+    height: 500px;
+    width: 40%;
+    text-align: center;
+    display: flex;
+}
+.images{
+    height: 500px;
+    margin-left: 300px;
+
+}
+img{
+    height: 500px;
+}
