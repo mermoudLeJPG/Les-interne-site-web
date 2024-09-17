@@ -17,5 +17,11 @@ h3 {
 }
 
 #defilement {
+    position: relative;
+    height: 100vh;
+    bottom: 0px;
     margin-bottom: 50vh;
+    overflow: hidden;
+    animation-name: deffilement;
+    animation-duration: 5s;
 }

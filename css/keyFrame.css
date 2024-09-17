@@ -1,0 +1,9 @@
+@keyframes deffilement {
+    from {
+        max-height: 0px;
+    }
+
+    to {
+        max-height: 100%;
+    }
+}
